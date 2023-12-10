@@ -1,0 +1,375 @@
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container1 {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+header {
+    background-image: url('bgimage3.jpg');
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f3f3f3;
+    background-position: right top;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Pastikan header tampil di atas konten */
+    transition: background-color 0.3s; /* Efek transisi perubahan warna latar belakang */
+
+
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite; /* Durasi dan ketidakberhinggaan animasi */
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('biaya.jpg');
+    }
+    20% {
+        background-image: url('saritaman.jpg');
+    }
+    40% {
+        background-image: url('biaya2.jpg');
+    }
+    60% {
+        background-image: url('bgimage2.jpg');
+    }
+    80% {
+        background-image: url('candi1.jpg');
+    }
+    100% {
+        background-image: url('pantailagi.jpg');
+}
+    }
+
+
+    
+    
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: #091242;  */
+    z-index: 1000; /* Pastikan header tampil di atas konten */
+    transition: background-color 0.3s; /* Efek transisi perubahan warna latar belakang */
+}
+
+
+
+
+header nav ul {
+    list-style-type: none;
+    
+    
+   
+
+}
+
+header ul li {
+    display: inline;
+   margin:  20px;
+   font-size: large;
+ 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+section {
+    margin: 20px;
+}
+
+.hero {
+    text-align: center;
+    font-size: 20px;
+    background-image: url('bgimage2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding:  0px;
+    /* background-color: #091242; */
+    color: #fff;
+    text-align: center;
+    padding:  0px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 350px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Membuat gambar tetap pada posisi saat menggulir */
+    background-repeat: no-repeat;
+
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite; /* Durasi dan ketidakberhinggaan animasi */
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('bgimage2.jpg');
+    }
+    20% {
+        background-image: url('saritaman.jpg');
+    }
+    40% {
+        background-image: url('biaya2.jpg');
+    }
+    60% {
+        background-image: url('bgimage2.jpg');
+    }
+    80% {
+        background-image: url('candi1.jpg');
+    }
+    100% {
+        background-image: url('pantailagi.jpg');
+}
+    }
+
+.destination-card {
+    flex: 1; /* Make cards flexible within the flex container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 320px ;
+}
+.full-width-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.background-image-a {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* You can adjust this value based on your needs */
+}
+
+
+.destination-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    padding: 2px;
+    border-radius: 0px;
+    position: relative;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.bagi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gambar1{
+    flex: 1;
+    text-align: center;
+}
+.gambar2{
+    flex: 1;
+    text-align: center;
+}
+.gambar3{
+    flex: 1;
+    text-align: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.footer1 {
+    background-color: #e9e8e8;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+footer {
+    background-color: #e9e8e8;
+    /* background-image: url('bgimage3.jpg'); */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 1em;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* .email {
+    color: rgb(238, 88, 88);
+    text-align:  center;
+    background-color: #e9e8e8;
+    padding: 1em;
+   
+} */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+img{
+    object-fit: cover;
+}
+.grid > article{
+    box-shadow: 1px 2px 2px 0px black;
+    border-radius: 30px;
+    text-align: center;
+    background: whitesmoke;
+    width: 300px;
+}
+.grid > article img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.grid > article:hover{
+    transform: scale(1.2);
+}
+@media (max-width:100px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:800px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+}
+}
+.gambar{
+    background-color: transparent;
+    width: auto;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* CSS untuk tampilan layar di bawah 767px */
+@media only screen and (max-width: 767px) {
+    header nav ul {
+        flex-direction: column; /* Menjadikan navigasi bertumpuk saat layar kecil */
+    }
+
+    header ul li {
+        display: block;
+        margin: 10px 0; /* Menambahkan margin vertikal untuk tombol navigasi */
+        font-size: large;
+        text-align: center; /* Menengahkan teks pada tombol navigasi */
+    }
+
+    header nav ul li a {
+        padding: 10px 0; /* Mengatur ulang padding pada tombol navigasi */
+        display: block;
+    }
+
+    .container,
+    .container2 {
+        max-width: 90%; /* Mengatur lebar maksimum container saat layar kecil */
+        margin: auto; /* Menengahkan container */
+        text-align: center; /* Menengahkan teks dalam container */
+        padding: 0 10px; /* Memberikan sedikit padding pada container */
+    }
+
+    .hero,
+    .destination-card,
+    .full-width-image,
+    .background-image-a,
+    .grid > article {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bagi {
+        flex-direction: column; /* Mengatur ulang tata letak item-item dalam '.bagi' menjadi bertumpuk */
+        align-items: center; /* Menengahkan item-item dalam '.bagi' */
+    }
+
+    .grid {
+        justify-content: center; /* Menengahkan grid saat layar kecil */
+    }
+}

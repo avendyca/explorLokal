@@ -1,0 +1,575 @@
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.container1 {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.logsin {
+    float: right;
+    margin-left: 30px;
+    
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-image: url('pram.jpg');
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-position: right top;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Pastikan header tampil di atas konten */
+    /* transition: background-color 0.3s; */
+    display: flex;
+
+
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite; /* Durasi dan ketidakberhinggaan animasi */
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('pram.jpg');
+    }
+    20% {
+        background-image: url('saritaman.jpg');
+    }
+    40% {
+        background-image: url('biaya2.jpg');
+    }
+    60% {
+        background-image: url('bgimage2.jpg');
+    }
+    80% {
+        background-image: url('candi1.jpg');
+    }
+    100% {
+        background-image: url('pantailagi.jpg');
+}
+    }
+
+
+    
+    
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: #091242;  */
+    z-index: 1000; /* Pastikan header tampil di atas konten */
+    transition: background-color 0.3s; /* Efek transisi perubahan warna latar belakang */
+}
+
+
+
+
+header nav ul {
+    list-style-type: none;
+    
+    
+   
+
+}
+
+header ul li {
+    display: inline;
+   margin:  20px;
+ 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+   
+}
+
+section {
+    margin: 20px;
+}
+
+.hero {
+    text-align: center;
+    font-size: 20px;
+    background-image: url('pram.jpg');
+    background-size: cover;
+    background-position: center;
+    padding:  0px;
+    /* background-color: #091242; */
+    color: #fff;
+    text-align: center;
+    padding:  0px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 350px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Membuat gambar tetap pada posisi saat menggulir */
+    background-repeat: no-repeat;
+    
+
+
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    /* padding: 20px 0; */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 450px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite; /* Durasi dan ketidakberhinggaan animasi */
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('pram.jpg');
+    }
+    20% {
+        background-image: url('saritaman.jpg');
+    }
+    40% {
+        background-image: url('biaya2.jpg');
+    }
+    60% {
+        background-image: url('bgimage2.jpg');
+    }
+    80% {
+        background-image: url('candi1.jpg');
+    }
+    100% {
+        background-image: url('pantailagi.jpg');
+}
+    }
+
+.destination-card {
+    flex: 1; /* Make cards flexible within the flex container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 320px ;
+}
+
+.destination-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    padding: 2px;
+    border-radius: 0px;
+    position: relative;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.bagi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gambar1{
+    flex: 1;
+    text-align: center;
+}
+.gambar2{
+    flex: 1;
+    text-align: center;
+}
+.gambar3{
+    flex: 1;
+    text-align: center;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* .tambahan {
+    background-color: #ffffff;
+    color: rgb(14, 13, 13);
+    padding: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+.footer1 {
+    background-color: #e9e8e8;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+    background-color: #e9e8e8;
+    /* background-image: url('bgimage3.jpg'); */
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 1em;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* .email {
+    color: white;
+    text-align: top center;
+   
+} */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+img{
+    object-fit: cover;
+}
+.grid > article{
+    box-shadow: 1px 2px 2px 0px rgb(0, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+    background: whitesmoke;
+    width: 300px;
+}
+.grid > article img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+    
+}
+.grid > article:hover{
+    transform: scale(1.2);
+}
+@media (max-width:1000px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:800px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+}
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* .content {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    
+
+}
+
+.content.show {
+    opacity: 1;
+    transform: translateY(0);
+} */
+
+
+.description {
+    display: none;
+}
+
+.content:hover .description {
+    display: block;
+}
+
+.learn-more {
+    display: none;
+}
+
+.content:hover .learn-more {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+:root {
+    --Dark-blue: hsl(212, 24%, 26%);
+    --Grayish-Blue: hsl(211, 10%, 45%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.comment-section {
+    max-width: 1425px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--White);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment-form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: var(--Dark-blue);
+    color: var(--White);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.comment {
+    border-bottom: 1px solid var(--Grayish-Blue);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+@media (max-width:767px) {
+    
+        .container{
+            padding-left: 0%;
+            text-align: justify;
+            padding-right: 0%;
+        }
+         /* Center and stack the navigation items */
+         header nav ul {
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    
+        header ul li {
+            display: block;
+            margin: 10px 0; /* Add some vertical margin between buttons for spacing */
+            font-size: large;
+        }
+    
+        header nav ul li a {
+            text-decoration: none;
+            color: rgb(251, 251, 251);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px 10px; /* Add padding to the buttons for better touch interactions */
+            display: block;
+        }
+        
+        header {
+            padding: 10px;
+            padding: 60px 0; /* Sesuaikan padding untuk header pada layar sangat kecil */
+        }
+        .grid{
+            grid-template-columns: repeat(1,1fr);
+            justify-content: center;
+        }
+        .hero{
+            padding: 150px 0;
+        }
+        .content {
+            width: 100%;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    /* .content {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+        
+    
+    }
+    
+    .content.show {
+        opacity: 1;
+        transform: translateY(0);
+    } */
+    
+    
+    .description {
+        display: none;
+    }
+    
+    .content:hover .description {
+        display: block;
+    }
+    
+    .learn-more {
+        display: none;
+    }
+    
+    .content:hover .learn-more {
+        display: inline-block;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    :root {
+        --Dark-blue: hsl(212, 24%, 26%);
+        --Grayish-Blue: hsl(211, 10%, 45%);
+        --White: hsl(0, 0%, 100%);
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+    
+    .comment-section {
+        max-width: 1425px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: var(--White);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .comment-form {
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        background-color: var(--Dark-blue);
+        color: var(--White);
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    .comment {
+        border-bottom: 1px solid var(--Grayish-Blue);
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .comment p {
+        margin: 0;
+    }
+    
+    .user-profile {
+        display: flex;
+        align-items: center;
+    }
+    
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .username {
+        font-weight: bold;
+    }
+    
+
+

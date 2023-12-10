@@ -1,0 +1,65 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url('candi1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    max-width: 600px;
+    padding: 40px;
+    background-color: rgba(55, 55, 55, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #dcdcdc;
+}
+
+h2 {
+    color: #61dafb;
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #505050;
+    border: 1px solid #3e3e3e;
+    color: #dcdcdc;
+}
+
+button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4fa3c1;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .login-container {
+        max-width: 80%;
+    }
+}
